@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="#">
+    <link rel="shortcut icon" href="https://logos-world.net/wp-content/uploads/2020/06/Real-Madrid-Logo-700x394.png" type="image/x-icon">
+    <title>realmadridfans</title>
+</head>
+<body>
+
+    <header>
+
+        <img src="C:\Users\jesus\OneDrive\Escritorio\CoderHouse\1era pre entrega\imagenes\imagenLogoFaviYHeader.png" alt="logoRealMadrid" class="imgHeader">
+      
+        <nav>
+                                <!--Inicio Menú-->
+          <ul>
+              <li><a href="index.html" target="_blank"> Inicio</a>
+    
+                  <ul>
+              
+                      <li><a href="index.html#nosotros" target="_blank">Nosotros</a></li>
+                      <li><a href="index.html#historiadelclub" target="_blank">Historia del Club</a></li>
+    
+                  </ul>
+    
+              </li>
+    
+              <li><a href="jugadores.html" target="_blank">Jugadores</a> 
+    
+                  <ul>
+    
+                      <li><a href="jugadores.html#jugadoreshistoricos" target="_blank">Jugadores históricos</a></li> 
+                      <li><a href="jugadores.html#jugadoresactuales" target="_blank">Jugadores actuales</a></li>
+    
+                  </ul>
+              
+              </li>
+    
+              <li><a href="Copastorneos.html" target="_blank">Copas Torneos</a>
+    
+                  <ul>
+    
+                      <li><a href="Copastorneos.html#champions" target="_blank">Champions League</a></li>
+                      <li><a href="Copastorneos.html#liga" target="_blank"> Liga Española</a></li>
+                      <li><a href="Copastorneos.html#encuesta" target="_blank">Encuesta</a></li>
+    
+                  </ul>
+              
+              </li>
+    
+              <li><a href="otrospremios.html" target="_blank">Otros Premios</a>
+    
+                  <ul>
+    
+                      <li><a href="otrospremios.html#fifa">Trofeo Fifa</a></li><!--hay que hacer el ID cuando se cree la pag de Copas Torneos-->
+                      <li><a href="otrospremios.html#mundial">Mundiales de Clubes</a></li>
+    
+                  </ul>
+              
+              </li>
+    
+              <li><a href="contacto.html" target="_blank"> Contacto</a></li>
+    
+          </ul>
+    
+      </nav>
+
+                                            <!--Fin del menú-->
+    
+      </header>
+
+      <main>
+
+                              <!--Inicio Cuerpo de Página-->
+
+        <h1><strong>Contacto</strong></h1>
+
+                                            <!--Formulario-->
+
+            <form action="#" method="post" enctype="text/plain"> <!--Falta el ACTION NO SÉ COMO HACERLO-->
+
+                <fieldset><!--Para que quede enmarcado-->
+
+                    <legend>Comunicate con nosotros</legend>
+
+                                                <!--Ingreso de texto: Nombre-->
+
+                        <label for="nombre">Nombre Completo:</label><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required><br>
+
+                                                <!--Ingreso de texto: Email-->
+                        
+                        <label for="correoelectronico">Correo Electrónico:</label><br>
+                        <input type="email" id="correoelectronico" name="correoelectronico" placeholder="Introduce tu email" required><br>
+
+                                <!--Controles de Selección: Botones de Radio (Se escoje 1 opción )--> 
+                        
+                        <div id="sexo">Sexo:</div>
+
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" name="sexo" value="masculino" id="masculino"><br>
+
+                        <label for="femenino">Femenino</label>
+                        <input type="radio" name="sexo" value="femenino" id="femenino"><br>
+
+                        <label for="nobinario">No binario</label>
+                        <input type="radio" name="sexo" value="nobinario" id="nobinario"><br>
+
+                                                <!--Ingreso de texto: Textarea-->
+
+                        <label for="comentario">Comentario:</label><br>
+                        <textarea name="Comentario" id="comentario" cols="15" rows="5" placeholder= "Introducir comentario" required></textarea><br>      
+
+                                              <!--Botones en los formularios-->
+
+                        <input type="submit" value="Enviar"/>
+                        <input type="reset" value="Limpiar"/>
+                        <input type="button" value="Sin acción"/>
+
+                </fieldset>
+
+            </form>
+
+            <!--ACÁ FALTA COLOCAR EL GOOGLE MAPS-->
+
+                                          <!--Fin Cuerpo de la Página-->
+
+      </main>
+
+      <footer>
+
+        <div>
+
+        <h6>Página realizada por Jesus Rodriguez. Se reserva el derecho de autor</h6>
+    
+          <ol>
+    
+              <li><a href="index.html" target="_blank">Inicio</a></li>
+              <li><a href="jugadores.html" target="_blank">Jugadores</a></li>
+              <li><a href="Copastorneos.html" target="_blank">Copas Torneos</a></li> 
+              <li><a href="otrospremios.html" target="_blank"> Otros Premios</a></li>
+            
+          </ol>
+        
+        <a href="https://www.realmadrid.com/" target="_blank"><img src="C:\Users\jesus\OneDrive\Escritorio\CoderHouse\1era pre entrega\imagenes\logoRMfooter.png" alt="logoRMfooter" class="imgFooter"></a>
+        <a href="https://www.laliga.com/laliga-santander" target="_blank"><img src="C:\Users\jesus\OneDrive\Escritorio\CoderHouse\1era pre entrega\imagenes\logolaligafooter.png" alt="logolaligafooter" class="imgFooter"></a>
+        <a href="https://es.uefa.com/uefachampionsleague/" target="_blank"><img src="C:\Users\jesus\OneDrive\Escritorio\CoderHouse\1era pre entrega\imagenes\logoChampFooter.jpg" alt="logoChampFooter" class="imgFooter"></a>
+        </div>
+    
+      </footer>
+    
+    
+</body>
+</html>

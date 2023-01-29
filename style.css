@@ -1,0 +1,201 @@
+/* @Media Queries*/
+
+@media only screen and (min-width: 250px) and (max-width: 991px) {
+
+    .tHistoria {
+
+        border: solid rgba(29,152,177,1) 1px; 
+        
+    }
+    
+}
+
+/*Reset CSS*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Font family a utilizar*/
+
+body {
+
+    font-family: 'Playfair Display', serif;
+}
+
+/*Medidas Logo NavBar-Header*/
+
+.imgHeader {
+
+    height: 100px;
+    width: 100px;
+    
+}
+
+/*NavBar-Header*/
+
+.colorNav {
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 13%, rgba(5,83,102,1) 33%, rgba(19,97,116,1) 50%, rgba(29,152,177,1) 73%, rgba(29,124,228,1) 91%);
+    
+}
+
+ul li a {
+
+    text-transform: uppercase;
+    margin-inline: 25px;
+    
+
+}
+
+.dropdown-menu {
+
+    background-color: rgba(29,152,177,1);
+    color: white;
+}
+
+.dropdown-menu li a {
+
+    color: white;
+}
+
+.dropdown-menu li a:hover {
+
+    background-color: rgba(19,97,116,1);
+    color: white;
+    
+}
+
+.navbar-center {
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+ul > li:hover { /*al colocar > decimos que son los li hijos directo de ul*/
+
+    background-color: rgba(19,97,116,1);
+}
+
+/*Comienzo de Body*/
+
+/*Bienvenida a la página*/
+
+.tituloPrincipal {
+
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    margin-bottom: 0;
+
+}
+
+/*Video de bienvenida*/
+
+#iframeIndex {
+
+    background-color: rgba(19,97,116,1);
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+   
+}
+
+/*Sections*/
+
+/*1er Section*/
+
+section .nosotros {
+
+    
+    color: white;
+    padding: 45px 45px;
+}
+
+.tNosotros {
+    
+    margin: 0;
+    
+}
+
+.pNosotros {
+
+    background-color: rgba(2,0,36,1);
+    margin: 0;
+    
+}
+
+/*2do section*/
+
+.tHistoria {
+
+    color: white;
+    margin: 0;
+    padding: 45px 45px
+}
+
+.pHistoria {
+
+    background-color:rgba(2,0,36,1);
+    color: white;
+    margin: 0;
+    padding: 45px 45px;
+
+}
+
+/*Link con imagen-escudo*/
+
+ .imagLink:hover {
+
+    transform: scale(0.5);
+    transition: 2.5s;
+
+ }
+
+/*Footer*/
+
+footer {
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 13%, rgba(5,83,102,1) 33%, rgba(19,97,116,1) 50%, rgba(29,152,177,1) 73%, rgba(29,124,228,1) 91%);
+    color: white;
+    padding-top: 15px;
+
+}
+
+ol > li {
+
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+ol > li a {
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+
+
+.imgFooter {
+
+    height: 70%;
+    width: 85%;
+    padding: 20px;
+    
+
+}
+
+.imgFooter:hover {
+
+    transform: rotate(100deg);
+    transition: 2.5s;
+}
+
+
